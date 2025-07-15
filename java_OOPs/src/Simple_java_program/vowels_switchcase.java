@@ -1,4 +1,3 @@
-package Simple_java_program;
 import java .util.Scanner;
 public class vowels_switchcase {
 	public static void main(String[] args) {
