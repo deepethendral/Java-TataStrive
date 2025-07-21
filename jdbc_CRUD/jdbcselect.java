@@ -2,9 +2,9 @@ import java.sql.*;
 
 public class jdbcselect {
     public static void main(String[] args) throws Exception {
-        String url = "jdbc:mysql://localhost:3306/db3";
-        String user = "root";
-        String password = "thendral@007";
+        String url = "jdbc:mysql://localhost:3306/databasename";
+        String user = "your_username";
+        String password = "your_password";
 
         // Load MySQL JDBC driver
         Class.forName("com.mysql.cj.jdbc.Driver");
