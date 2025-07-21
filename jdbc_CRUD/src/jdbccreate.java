@@ -1,4 +1,14 @@
 // Java program to implement a simple JDBC application
+/*
+ *1. import --->java.sql
+ *2. load and register the driver ---> com.jdbc.
+ *3. create connection
+ *4. create a statement
+ *5. execute the query
+ *6. process the results
+ *7. close
+ */
+
 import java.sql.*;
 
 public class jdbccreate {
