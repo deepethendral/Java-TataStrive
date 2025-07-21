@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 public class jdbcdelete{
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/database_name";  // ✅ Ensure this is correct
+        String url = "jdbc:mysql://localhost:3306/database_name";  //  Ensure this is correct
         String username = "your_username";
         String password = "your_password";
 
@@ -17,7 +17,7 @@ public class jdbcdelete{
             String deleteQuery = "DELETE FROM employees WHERE id = ?";
             PreparedStatement pstDelete = conn.prepareStatement(deleteQuery);
 
-            pstDelete.setInt(1, 204);  // 🛑 Change this to the actual ID you want to delete
+            pstDelete.setInt(1, 204);  //  Change this to the actual ID you want to delete
 
             int rowsDeleted = pstDelete.executeUpdate();
             System.out.println("Number of rows deleted: " + rowsDeleted);
