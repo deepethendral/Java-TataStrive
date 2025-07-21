@@ -8,13 +8,13 @@ public class jdbccreate {
 
         // Replace with your database name
         String url
-            = "jdbc:mysql://localhost:3306/db3";
+            = "jdbc:mysql://localhost:3306/your database_name";
 
         // Replace with your MySQL user name
-        String username = "root";
+        String username = "your_username";
 
         // Replace with your MySQL password
-        String password = "thendral@007";
+        String password = "your_password";
 
         // Updated query syntax for modern databases
         String query
