@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class jdbcupdate{
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/db3";
-        String username = "root";
-        String password = "thendral@007";
+        String url = "jdbc:mysql://localhost:3306/database_name";
+        String username = "your_username";
+        String password = "your_password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
