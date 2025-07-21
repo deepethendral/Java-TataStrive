@@ -5,9 +5,9 @@ import java.sql.SQLException;
 
 public class jdbcinsert {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/db3"; // ✅ Make sure this is correct
-        String username = "root";
-        String password = "thendral@007";
+        String url = "jdbc:mysql://localhost:3306/database_name"; // ✅ Make sure this is correct
+        String username = "your_username";
+        String password = "your_password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
